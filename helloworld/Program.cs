@@ -1,3 +1,15 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
-Console.ReadLine();
+namespace helloworld
+{
+    class program
+    {
+        static void Main (string[] args)
+        {
+            Console.WriteLine("Hello, World!");
+            Fibonocciseries series = new Fibonocciseries();
+            series.Findfibonocciseries();
+            Console.Read();
+            
+        }
+    }
+}
